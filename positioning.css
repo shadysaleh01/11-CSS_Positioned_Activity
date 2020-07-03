@@ -1,0 +1,39 @@
+body {
+  background: blanchedalmond;
+}
+
+.fixed {
+  background: palevioletred;
+  padding: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+}
+
+p {
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.relative {
+  background: gray;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 150px;
+  position: relative;
+  font-size: 25px;
+}
+
+.absolute {
+  background: yellow;
+  position: absolute;
+  padding: 50px 70px;
+  bottom: 0;
+  right: -30px;
+  font-size: 25px;
+}
